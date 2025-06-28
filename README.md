@@ -1,0 +1,1 @@
+# lifxregistry-go
