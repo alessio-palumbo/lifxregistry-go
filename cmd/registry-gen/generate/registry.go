@@ -18,7 +18,7 @@ var templates embed.FS
 
 var generatorHeader = `
 // Code generated. DO NOT EDIT.
-// Source: https://github.com/LIFX/public-protocol@%s
+// Source: https://github.com/LIFX/products@%s
 // Generated: %s
 `
 

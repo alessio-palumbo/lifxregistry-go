@@ -24,7 +24,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -37,7 +40,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -50,7 +56,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 6500]
+          "temperature_range": [
+            2700,
+            6500
+          ]
         },
         "upgrades": []
       },
@@ -63,7 +72,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 6500]
+          "temperature_range": [
+            2700,
+            6500
+          ]
         },
         "upgrades": []
       },
@@ -76,7 +88,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -89,7 +104,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -102,7 +120,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -115,7 +136,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -128,7 +152,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -141,14 +168,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -162,14 +195,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -183,14 +222,20 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -204,14 +249,20 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -225,7 +276,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -238,9 +292,15 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [2500, 9000],
+          "temperature_range": [
+            2500,
+            9000
+          ],
           "min_ext_mz_firmware": 1532997580,
-          "min_ext_mz_firmware_components": [2, 77]
+          "min_ext_mz_firmware_components": [
+            2,
+            77
+          ]
         },
         "upgrades": [
           {
@@ -254,7 +314,10 @@
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -268,14 +331,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -289,14 +358,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -310,9 +385,15 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [2500, 9000],
+          "temperature_range": [
+            2500,
+            9000
+          ],
           "min_ext_mz_firmware": 1532997580,
-          "min_ext_mz_firmware_components": [2, 77]
+          "min_ext_mz_firmware_components": [
+            2,
+            77
+          ]
         },
         "upgrades": [
           {
@@ -326,7 +407,10 @@
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -340,14 +424,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -361,14 +451,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -382,14 +478,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -403,14 +505,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -424,14 +532,20 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -445,14 +559,20 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": [
           {
             "major": 2,
             "minor": 80,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -466,7 +586,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -479,14 +602,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 6500]
+          "temperature_range": [
+            1500,
+            6500
+          ]
         },
         "upgrades": [
           {
             "major": 3,
             "minor": 70,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -500,7 +629,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -513,7 +645,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -526,7 +661,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -539,7 +677,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2500, 9000]
+          "temperature_range": [
+            2500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -552,7 +693,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -565,7 +709,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -578,14 +725,20 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 6500]
+          "temperature_range": [
+            1500,
+            6500
+          ]
         },
         "upgrades": [
           {
             "major": 3,
             "minor": 70,
             "features": {
-              "temperature_range": [1500, 9000]
+              "temperature_range": [
+                1500,
+                9000
+              ]
             }
           }
         ]
@@ -599,7 +752,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -612,7 +768,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -625,7 +784,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -638,7 +800,10 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -651,7 +816,10 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -664,7 +832,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -677,7 +848,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -718,7 +892,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2200, 6500]
+          "temperature_range": [
+            2200,
+            6500
+          ]
         },
         "upgrades": []
       },
@@ -731,7 +908,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2100, 2100]
+          "temperature_range": [
+            2100,
+            2100
+          ]
         },
         "upgrades": []
       },
@@ -744,7 +924,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2000, 2000]
+          "temperature_range": [
+            2000,
+            2000
+          ]
         },
         "upgrades": []
       },
@@ -757,7 +940,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -770,7 +956,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -798,7 +987,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -811,7 +1003,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -824,7 +1019,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -837,7 +1035,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -850,7 +1051,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -863,7 +1067,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2200, 6500]
+          "temperature_range": [
+            2200,
+            6500
+          ]
         },
         "upgrades": []
       },
@@ -876,7 +1083,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -889,7 +1099,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -903,7 +1116,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -916,7 +1132,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2100, 2100]
+          "temperature_range": [
+            2100,
+            2100
+          ]
         },
         "upgrades": []
       },
@@ -929,7 +1148,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2000, 2000]
+          "temperature_range": [
+            2000,
+            2000
+          ]
         },
         "upgrades": []
       },
@@ -942,7 +1164,10 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -955,7 +1180,10 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -968,7 +1196,10 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -981,7 +1212,10 @@
           "matrix": false,
           "infrared": true,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -994,7 +1228,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1007,7 +1244,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1048,7 +1288,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1062,7 +1305,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1076,7 +1322,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1090,7 +1339,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1104,7 +1356,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1117,7 +1372,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1130,7 +1388,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1143,7 +1404,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1156,7 +1420,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1169,7 +1436,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1182,7 +1452,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -1195,7 +1468,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -1208,7 +1484,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1221,7 +1500,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1234,7 +1516,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1247,7 +1532,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1260,7 +1548,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -1273,7 +1564,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [2700, 2700]
+          "temperature_range": [
+            2700,
+            2700
+          ]
         },
         "upgrades": []
       },
@@ -1286,7 +1580,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1299,7 +1596,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1312,7 +1612,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1325,7 +1628,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1338,7 +1644,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1352,7 +1661,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1366,7 +1678,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1380,7 +1695,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1394,7 +1712,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1408,7 +1729,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1422,7 +1746,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1435,7 +1762,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1448,7 +1778,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1461,7 +1794,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1474,7 +1810,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1487,7 +1826,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1500,7 +1842,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1513,7 +1858,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1526,7 +1874,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1539,7 +1890,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1552,7 +1906,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1565,7 +1922,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1578,7 +1938,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1591,7 +1954,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1604,7 +1970,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1617,7 +1986,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1630,7 +2002,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1643,7 +2018,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1656,7 +2034,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1669,7 +2050,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1682,7 +2066,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1695,7 +2082,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1708,7 +2098,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1721,7 +2114,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1734,7 +2130,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1747,7 +2146,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1761,7 +2163,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1775,7 +2180,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1789,7 +2197,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1803,7 +2214,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1817,7 +2231,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": true,
-          "temperature_range": [1500, 9000],
+          "temperature_range": [
+            1500,
+            9000
+          ],
           "extended_multizone": true
         },
         "upgrades": []
@@ -1831,7 +2248,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1844,7 +2264,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1857,7 +2280,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1870,33 +2296,42 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
       {
         "pid": 219,
-        "name": "LIFX Capsule Mini US",
+        "name": "LIFX Luna US",
         "features": {
           "color": true,
           "chain": false,
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
       {
         "pid": 220,
-        "name": "LIFX Capsule Mini Intl",
+        "name": "LIFX Luna Intl",
         "features": {
           "color": true,
           "chain": false,
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1909,7 +2344,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1922,7 +2360,10 @@
           "matrix": true,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1935,7 +2376,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1948,7 +2392,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       },
@@ -1961,7 +2408,10 @@
           "matrix": false,
           "infrared": false,
           "multizone": false,
-          "temperature_range": [1500, 9000]
+          "temperature_range": [
+            1500,
+            9000
+          ]
         },
         "upgrades": []
       }
