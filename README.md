@@ -14,7 +14,7 @@ It includes:
 To update and regenerate the LIFX registry Go code:
 
 ```bash
-make generate
+make regenerate
 ```
 
 This will:

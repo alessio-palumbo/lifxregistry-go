@@ -1,6 +1,6 @@
 // Code generated. DO NOT EDIT.
-// Source: https://github.com/LIFX/products@03ff6813e792a1b3361e9af104aae54e389c7996
-// Generated: 2025-06-28T10:55:16Z
+// Source: https://github.com/LIFX/products@1cb71fa95f5a8cd6bc9b5dd9e13812678fbc6261
+// Generated: 2025-07-17T08:00:15Z
 package registry
 
 // ProductsByPID maps LIFX Product IDs to products.
@@ -2528,7 +2528,7 @@ var ProductsByPID = map[int]Product{
 			Chain:             false,
 			Matrix:            true,
 			Relays:            false,
-			Buttons:           false,
+			Buttons:           true,
 			Infrared:          false,
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
@@ -2545,7 +2545,7 @@ var ProductsByPID = map[int]Product{
 			Chain:             false,
 			Matrix:            true,
 			Relays:            false,
-			Buttons:           false,
+			Buttons:           true,
 			Infrared:          false,
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
