@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"embed"
 	"fmt"
-	"html/template"
 	"os"
 	"path/filepath"
+	"text/template"
 	"time"
 
 	"github.com/alessio-palumbo/lifxregistry-go/cmd/registry-gen/decode"

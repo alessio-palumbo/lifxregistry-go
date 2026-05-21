@@ -6,7 +6,7 @@ var ProductsByPID = map[int]Product{
 {{- range . }}
 	{{ .PID }}: {
 		PID: {{ .PID }},
-		Name: "{{ .Name }}",
+		Name: `{{ .Name }}`,
 		Features: FeatureSet{
 			HEV: {{ .Features.HEV }},
 			Color: {{ .Features.Color }},
