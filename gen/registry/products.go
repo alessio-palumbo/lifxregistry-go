@@ -1,13 +1,30 @@
 // Code generated. DO NOT EDIT.
-// Source: https://github.com/LIFX/products@1cb71fa95f5a8cd6bc9b5dd9e13812678fbc6261
-// Generated: 2025-07-17T08:00:15Z
+// Source: https://github.com/LIFX/products@cf7e0873a207c5ea3e748ee8d8887e134a077160
+// Generated: 2026-05-21T00:17:46Z
 package registry
 
 // ProductsByPID maps LIFX Product IDs to products.
 var ProductsByPID = map[int]Product{
 	1: {
 		PID:  1,
-		Name: "LIFX Original 1000",
+		Name: `Original`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	2: {
+		PID:  2,
+		Name: `Original 1000`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -24,7 +41,7 @@ var ProductsByPID = map[int]Product{
 	},
 	3: {
 		PID:  3,
-		Name: "LIFX Color 650",
+		Name: `Color 650`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -41,7 +58,7 @@ var ProductsByPID = map[int]Product{
 	},
 	10: {
 		PID:  10,
-		Name: "LIFX White 800 (Low Voltage)",
+		Name: `LIFX White 800 (LV)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -58,7 +75,7 @@ var ProductsByPID = map[int]Product{
 	},
 	11: {
 		PID:  11,
-		Name: "LIFX White 800 (High Voltage)",
+		Name: `LIFX White 800 (HV)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -73,9 +90,43 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
-	15: {
-		PID:  15,
-		Name: "LIFX Color 1000",
+	12: {
+		PID:  12,
+		Name: `LIFX LCMv4 White OEM (A19 LV)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2700, 2700},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	13: {
+		PID:  13,
+		Name: `LIFX LCMv4 White OEM (A19 HV)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2700, 2700},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	14: {
+		PID:  14,
+		Name: `LIFX Carbon Prototype`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -90,9 +141,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	15: {
+		PID:  15,
+		Name: `LIFX LCMv4 Color (A21)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2700, 6500},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	18: {
 		PID:  18,
-		Name: "LIFX White 900 BR30 (Low Voltage)",
+		Name: `LIFX White 900 (BR30)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -102,17 +170,34 @@ var ProductsByPID = map[int]Product{
 			Buttons:           false,
 			Infrared:          false,
 			Multizone:         false,
-			TemperatureRange:  []int{2500, 9000},
+			TemperatureRange:  []int{2700, 6500},
 			ExtendedMultizone: false,
 		},
 		Upgrades: []Upgrade{},
 	},
 	19: {
 		PID:  19,
-		Name: "LIFX White 900 BR30 (High Voltage)",
+		Name: `LIFX White 900 (BR30)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2700, 6500},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	20: {
+		PID:  20,
+		Name: `LIFX Color 1000 (BR30)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
 			Chain:             false,
 			Matrix:            false,
 			Relays:            false,
@@ -124,9 +209,9 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
-	20: {
-		PID:  20,
-		Name: "LIFX Color 1000 BR30",
+	21: {
+		PID:  21,
+		Name: `LIFX LCMv4 Color (GU10)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -143,7 +228,7 @@ var ProductsByPID = map[int]Product{
 	},
 	22: {
 		PID:  22,
-		Name: "LIFX Color 1000",
+		Name: `LIFX Color 1000`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -158,9 +243,77 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	23: {
+		PID:  23,
+		Name: `LIFX (A19)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	24: {
+		PID:  24,
+		Name: `LIFX (BR30)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	25: {
+		PID:  25,
+		Name: `LIFX+ (A19)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          true,
+			Multizone:         false,
+			TemperatureRange:  []int{2500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	26: {
+		PID:  26,
+		Name: `LIFX+ (BR30)`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          true,
+			Multizone:         false,
+			TemperatureRange:  []int{2500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	27: {
 		PID:  27,
-		Name: "LIFX A19",
+		Name: `LIFX (A19)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -194,7 +347,7 @@ var ProductsByPID = map[int]Product{
 	},
 	28: {
 		PID:  28,
-		Name: "LIFX BR30",
+		Name: `LIFX (BR30)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -228,7 +381,7 @@ var ProductsByPID = map[int]Product{
 	},
 	29: {
 		PID:  29,
-		Name: "LIFX A19 Night Vision",
+		Name: `LIFX+ (A19)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -262,7 +415,7 @@ var ProductsByPID = map[int]Product{
 	},
 	30: {
 		PID:  30,
-		Name: "LIFX BR30 Night Vision",
+		Name: `LIFX+ (BR30)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -296,7 +449,7 @@ var ProductsByPID = map[int]Product{
 	},
 	31: {
 		PID:  31,
-		Name: "LIFX Z",
+		Name: `LIFX Z`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -313,7 +466,7 @@ var ProductsByPID = map[int]Product{
 	},
 	32: {
 		PID:  32,
-		Name: "LIFX Z",
+		Name: `LIFX Z`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -361,9 +514,26 @@ var ProductsByPID = map[int]Product{
 			},
 		},
 	},
+	33: {
+		PID:  33,
+		Name: `LIFX Downlight`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	36: {
 		PID:  36,
-		Name: "LIFX Downlight",
+		Name: `LIFX DL`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -397,7 +567,7 @@ var ProductsByPID = map[int]Product{
 	},
 	37: {
 		PID:  37,
-		Name: "LIFX Downlight",
+		Name: `LIFX DL`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -431,7 +601,7 @@ var ProductsByPID = map[int]Product{
 	},
 	38: {
 		PID:  38,
-		Name: "LIFX Beam",
+		Name: `LIFX Beam`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -481,7 +651,7 @@ var ProductsByPID = map[int]Product{
 	},
 	39: {
 		PID:  39,
-		Name: "LIFX Downlight White to Warm",
+		Name: `LIFX DL WW 700lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -515,7 +685,7 @@ var ProductsByPID = map[int]Product{
 	},
 	40: {
 		PID:  40,
-		Name: "LIFX Downlight",
+		Name: `LIFX DL Colour 700lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -549,7 +719,7 @@ var ProductsByPID = map[int]Product{
 	},
 	43: {
 		PID:  43,
-		Name: "LIFX A19",
+		Name: `LIFX (A19)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -583,7 +753,7 @@ var ProductsByPID = map[int]Product{
 	},
 	44: {
 		PID:  44,
-		Name: "LIFX BR30",
+		Name: `LIFX (BR30)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -617,7 +787,7 @@ var ProductsByPID = map[int]Product{
 	},
 	45: {
 		PID:  45,
-		Name: "LIFX A19 Night Vision",
+		Name: `LIFX+ (A19)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -651,7 +821,7 @@ var ProductsByPID = map[int]Product{
 	},
 	46: {
 		PID:  46,
-		Name: "LIFX BR30 Night Vision",
+		Name: `LIFX+ (BR30)`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -685,7 +855,7 @@ var ProductsByPID = map[int]Product{
 	},
 	49: {
 		PID:  49,
-		Name: "LIFX Mini Color",
+		Name: `LIFX Mini C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -702,7 +872,7 @@ var ProductsByPID = map[int]Product{
 	},
 	50: {
 		PID:  50,
-		Name: "LIFX Mini White to Warm",
+		Name: `LIFX Mini DD`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -712,7 +882,7 @@ var ProductsByPID = map[int]Product{
 			Buttons:           false,
 			Infrared:          false,
 			Multizone:         false,
-			TemperatureRange:  []int{1500, 6500},
+			TemperatureRange:  []int{2500, 9000},
 			ExtendedMultizone: false,
 		},
 		Upgrades: []Upgrade{
@@ -736,7 +906,7 @@ var ProductsByPID = map[int]Product{
 	},
 	51: {
 		PID:  51,
-		Name: "LIFX Mini White",
+		Name: `LIFX Mini W`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -753,7 +923,7 @@ var ProductsByPID = map[int]Product{
 	},
 	52: {
 		PID:  52,
-		Name: "LIFX GU10",
+		Name: `LIFX GU10`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -770,7 +940,7 @@ var ProductsByPID = map[int]Product{
 	},
 	53: {
 		PID:  53,
-		Name: "LIFX GU10",
+		Name: `LIFX GU10`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -785,9 +955,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	54: {
+		PID:  54,
+		Name: `LIFX GU10 White`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2700, 2700},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	55: {
 		PID:  55,
-		Name: "LIFX Tile",
+		Name: `LIFX Tile`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -802,9 +989,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	56: {
+		PID:  56,
+		Name: `LIFX Beam`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         true,
+			TemperatureRange:  []int{2500, 9000},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
 	57: {
 		PID:  57,
-		Name: "LIFX Candle",
+		Name: `LIFX Candle C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -821,7 +1025,7 @@ var ProductsByPID = map[int]Product{
 	},
 	59: {
 		PID:  59,
-		Name: "LIFX Mini Color",
+		Name: `LIFX Mini C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -838,7 +1042,7 @@ var ProductsByPID = map[int]Product{
 	},
 	60: {
 		PID:  60,
-		Name: "LIFX Mini White to Warm",
+		Name: `LIFX Mini DD`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -848,7 +1052,7 @@ var ProductsByPID = map[int]Product{
 			Buttons:           false,
 			Infrared:          false,
 			Multizone:         false,
-			TemperatureRange:  []int{1500, 6500},
+			TemperatureRange:  []int{2500, 9000},
 			ExtendedMultizone: false,
 		},
 		Upgrades: []Upgrade{
@@ -872,7 +1076,7 @@ var ProductsByPID = map[int]Product{
 	},
 	61: {
 		PID:  61,
-		Name: "LIFX Mini White",
+		Name: `LIFX Mini W`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -889,7 +1093,7 @@ var ProductsByPID = map[int]Product{
 	},
 	62: {
 		PID:  62,
-		Name: "LIFX A19",
+		Name: `LIFX (A19) LCM3`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -906,7 +1110,7 @@ var ProductsByPID = map[int]Product{
 	},
 	63: {
 		PID:  63,
-		Name: "LIFX BR30",
+		Name: `LIFX (BR30) LCM3`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -923,7 +1127,7 @@ var ProductsByPID = map[int]Product{
 	},
 	64: {
 		PID:  64,
-		Name: "LIFX A19 Night Vision",
+		Name: `LIFX+ (A19) LCM3`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -940,7 +1144,7 @@ var ProductsByPID = map[int]Product{
 	},
 	65: {
 		PID:  65,
-		Name: "LIFX BR30 Night Vision",
+		Name: `LIFX+ (BR30) LCM3`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -957,7 +1161,7 @@ var ProductsByPID = map[int]Product{
 	},
 	66: {
 		PID:  66,
-		Name: "LIFX Mini White",
+		Name: `LIFX Mini W`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -972,9 +1176,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	67: {
+		PID:  67,
+		Name: `LIFX Candle WW`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 6500},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	68: {
 		PID:  68,
-		Name: "LIFX Candle",
+		Name: `LIFX Candle C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -989,9 +1210,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	69: {
+		PID:  69,
+		Name: `LIFX Filament`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 2200},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	70: {
 		PID:  70,
-		Name: "LIFX Switch",
+		Name: `LIFX Switch`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1008,7 +1246,7 @@ var ProductsByPID = map[int]Product{
 	},
 	71: {
 		PID:  71,
-		Name: "LIFX Switch",
+		Name: `LIFX Switch`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1023,9 +1261,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	72: {
+		PID:  72,
+		Name: `LIFX A19`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
 	81: {
 		PID:  81,
-		Name: "LIFX Candle White to Warm",
+		Name: `LIFX Candle WW`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1042,7 +1297,7 @@ var ProductsByPID = map[int]Product{
 	},
 	82: {
 		PID:  82,
-		Name: "LIFX Filament Clear",
+		Name: `LIFX Filament Clear`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1052,14 +1307,31 @@ var ProductsByPID = map[int]Product{
 			Buttons:           false,
 			Infrared:          false,
 			Multizone:         false,
-			TemperatureRange:  []int{2100, 2100},
+			TemperatureRange:  []int{2200, 2200},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	84: {
+		PID:  84,
+		Name: `LIFX Switch`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            true,
+			Buttons:           true,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int(nil),
 			ExtendedMultizone: false,
 		},
 		Upgrades: []Upgrade{},
 	},
 	85: {
 		PID:  85,
-		Name: "LIFX Filament Amber",
+		Name: `LIFX Filament Amber`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1074,9 +1346,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	86: {
+		PID:  86,
+		Name: `LIFX Filament Smokey`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 2200},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	87: {
 		PID:  87,
-		Name: "LIFX Mini White",
+		Name: `LIFX White`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1093,7 +1382,7 @@ var ProductsByPID = map[int]Product{
 	},
 	88: {
 		PID:  88,
-		Name: "LIFX Mini White",
+		Name: `LIFX White`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1110,7 +1399,7 @@ var ProductsByPID = map[int]Product{
 	},
 	89: {
 		PID:  89,
-		Name: "LIFX Switch",
+		Name: `LIFX Switch`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1127,7 +1416,7 @@ var ProductsByPID = map[int]Product{
 	},
 	90: {
 		PID:  90,
-		Name: "LIFX Clean",
+		Name: `LIFX Clean A19 1100lm`,
 		Features: FeatureSet{
 			HEV:               true,
 			Color:             true,
@@ -1144,7 +1433,7 @@ var ProductsByPID = map[int]Product{
 	},
 	91: {
 		PID:  91,
-		Name: "LIFX Color",
+		Name: `LIFX Color 800lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1161,7 +1450,7 @@ var ProductsByPID = map[int]Product{
 	},
 	92: {
 		PID:  92,
-		Name: "LIFX Color",
+		Name: `LIFX Colour 1000lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1178,7 +1467,7 @@ var ProductsByPID = map[int]Product{
 	},
 	93: {
 		PID:  93,
-		Name: "LIFX A19 US",
+		Name: `LIFX Color A19 1100lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1195,7 +1484,7 @@ var ProductsByPID = map[int]Product{
 	},
 	94: {
 		PID:  94,
-		Name: "LIFX BR30",
+		Name: `LIFX Color BR30 1100lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1210,9 +1499,26 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	95: {
+		PID:  95,
+		Name: `Copper`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 6500},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	96: {
 		PID:  96,
-		Name: "LIFX Candle White to Warm",
+		Name: `LIFX Candle WW`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1229,7 +1535,7 @@ var ProductsByPID = map[int]Product{
 	},
 	97: {
 		PID:  97,
-		Name: "LIFX A19",
+		Name: `LIFX Colour A19 1200lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1246,7 +1552,7 @@ var ProductsByPID = map[int]Product{
 	},
 	98: {
 		PID:  98,
-		Name: "LIFX BR30",
+		Name: `LIFX Colour BR30 1100lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1263,7 +1569,7 @@ var ProductsByPID = map[int]Product{
 	},
 	99: {
 		PID:  99,
-		Name: "LIFX Clean",
+		Name: `LIFX Clean A19 1200lm`,
 		Features: FeatureSet{
 			HEV:               true,
 			Color:             true,
@@ -1280,7 +1586,7 @@ var ProductsByPID = map[int]Product{
 	},
 	100: {
 		PID:  100,
-		Name: "LIFX Filament Clear",
+		Name: `LIFX Filament Clear`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1290,14 +1596,14 @@ var ProductsByPID = map[int]Product{
 			Buttons:           false,
 			Infrared:          false,
 			Multizone:         false,
-			TemperatureRange:  []int{2100, 2100},
+			TemperatureRange:  []int{2200, 2200},
 			ExtendedMultizone: false,
 		},
 		Upgrades: []Upgrade{},
 	},
 	101: {
 		PID:  101,
-		Name: "LIFX Filament Amber",
+		Name: `LIFX Filament Amber`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1312,9 +1618,128 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	102: {
+		PID:  102,
+		Name: `LIFX Filament Smokey`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 2200},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	103: {
+		PID:  103,
+		Name: `LIFX Filament`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2100, 2100},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	104: {
+		PID:  104,
+		Name: `LIFX Filament`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2000, 2000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	105: {
+		PID:  105,
+		Name: `LIFX Filament`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 2200},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	106: {
+		PID:  106,
+		Name: `LIFX Filament`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 2200},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	107: {
+		PID:  107,
+		Name: `LIFX Filament`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2000, 2000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	108: {
+		PID:  108,
+		Name: `LIFX Filament`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2200, 2200},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	109: {
 		PID:  109,
-		Name: "LIFX A19 Night Vision",
+		Name: `LIFX NV A19 1100lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1331,7 +1756,7 @@ var ProductsByPID = map[int]Product{
 	},
 	110: {
 		PID:  110,
-		Name: "LIFX BR30 Night Vision",
+		Name: `LIFX NV BR30 1100lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1348,7 +1773,7 @@ var ProductsByPID = map[int]Product{
 	},
 	111: {
 		PID:  111,
-		Name: "LIFX A19 Night Vision",
+		Name: `LIFX NV A19 1200lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1365,7 +1790,7 @@ var ProductsByPID = map[int]Product{
 	},
 	112: {
 		PID:  112,
-		Name: "LIFX BR30 Night Vision Intl",
+		Name: `LIFX NV BR30 1100lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1382,7 +1807,7 @@ var ProductsByPID = map[int]Product{
 	},
 	113: {
 		PID:  113,
-		Name: "LIFX Mini WW US",
+		Name: `LIFX WW 800lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1399,7 +1824,7 @@ var ProductsByPID = map[int]Product{
 	},
 	114: {
 		PID:  114,
-		Name: "LIFX Mini WW Intl",
+		Name: `LIFX WW 1000lm`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1416,7 +1841,7 @@ var ProductsByPID = map[int]Product{
 	},
 	115: {
 		PID:  115,
-		Name: "LIFX Switch",
+		Name: `LIFX Switch`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1433,7 +1858,7 @@ var ProductsByPID = map[int]Product{
 	},
 	116: {
 		PID:  116,
-		Name: "LIFX Switch",
+		Name: `LIFX Switch US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1450,7 +1875,7 @@ var ProductsByPID = map[int]Product{
 	},
 	117: {
 		PID:  117,
-		Name: "LIFX Z US",
+		Name: `LIFX Z`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1467,7 +1892,7 @@ var ProductsByPID = map[int]Product{
 	},
 	118: {
 		PID:  118,
-		Name: "LIFX Z Intl",
+		Name: `LIFX Z`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1484,7 +1909,7 @@ var ProductsByPID = map[int]Product{
 	},
 	119: {
 		PID:  119,
-		Name: "LIFX Beam US",
+		Name: `LIFX Beam`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1501,7 +1926,7 @@ var ProductsByPID = map[int]Product{
 	},
 	120: {
 		PID:  120,
-		Name: "LIFX Beam Intl",
+		Name: `LIFX Beam`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1518,7 +1943,7 @@ var ProductsByPID = map[int]Product{
 	},
 	121: {
 		PID:  121,
-		Name: "LIFX Downlight Intl",
+		Name: `LIFX DL`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1535,7 +1960,7 @@ var ProductsByPID = map[int]Product{
 	},
 	122: {
 		PID:  122,
-		Name: "LIFX Downlight US",
+		Name: `LIFX DL`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1552,7 +1977,7 @@ var ProductsByPID = map[int]Product{
 	},
 	123: {
 		PID:  123,
-		Name: "LIFX Color US",
+		Name: `LIFX Mini 3.1 Color US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1569,7 +1994,7 @@ var ProductsByPID = map[int]Product{
 	},
 	124: {
 		PID:  124,
-		Name: "LIFX Colour Intl",
+		Name: `LIFX Mini 3.1 Color Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1586,7 +2011,7 @@ var ProductsByPID = map[int]Product{
 	},
 	125: {
 		PID:  125,
-		Name: "LIFX White to Warm US",
+		Name: `LIFX Mini 3.1 WW US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1603,7 +2028,7 @@ var ProductsByPID = map[int]Product{
 	},
 	126: {
 		PID:  126,
-		Name: "LIFX White to Warm Intl",
+		Name: `LIFX Mini 3.1 WW Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1620,7 +2045,7 @@ var ProductsByPID = map[int]Product{
 	},
 	127: {
 		PID:  127,
-		Name: "LIFX White US",
+		Name: `LIFX Mini 3.1 W US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1637,7 +2062,7 @@ var ProductsByPID = map[int]Product{
 	},
 	128: {
 		PID:  128,
-		Name: "LIFX White Intl",
+		Name: `LIFX Mini 3.1 W Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1654,7 +2079,7 @@ var ProductsByPID = map[int]Product{
 	},
 	129: {
 		PID:  129,
-		Name: "LIFX Color US",
+		Name: `LIFX Color 800`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1671,7 +2096,7 @@ var ProductsByPID = map[int]Product{
 	},
 	130: {
 		PID:  130,
-		Name: "LIFX Colour Intl",
+		Name: `LIFX Colour 1000`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1688,7 +2113,7 @@ var ProductsByPID = map[int]Product{
 	},
 	131: {
 		PID:  131,
-		Name: "LIFX White To Warm US",
+		Name: `LIFX White to Warm 800`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1705,7 +2130,7 @@ var ProductsByPID = map[int]Product{
 	},
 	132: {
 		PID:  132,
-		Name: "LIFX White To Warm Intl",
+		Name: `LIFX White to Warm 1000`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1722,7 +2147,7 @@ var ProductsByPID = map[int]Product{
 	},
 	133: {
 		PID:  133,
-		Name: "LIFX White US",
+		Name: `LIFX White 650`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1739,7 +2164,7 @@ var ProductsByPID = map[int]Product{
 	},
 	134: {
 		PID:  134,
-		Name: "LIFX White Intl",
+		Name: `LIFX White 800`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             false,
@@ -1756,7 +2181,7 @@ var ProductsByPID = map[int]Product{
 	},
 	135: {
 		PID:  135,
-		Name: "LIFX GU10 Color US",
+		Name: `LIFX GU10 Color US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1773,7 +2198,7 @@ var ProductsByPID = map[int]Product{
 	},
 	136: {
 		PID:  136,
-		Name: "LIFX GU10 Colour Intl",
+		Name: `LIFX GU10 Color Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1790,7 +2215,7 @@ var ProductsByPID = map[int]Product{
 	},
 	137: {
 		PID:  137,
-		Name: "LIFX Candle Color US",
+		Name: `LIFX Candle C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1807,7 +2232,7 @@ var ProductsByPID = map[int]Product{
 	},
 	138: {
 		PID:  138,
-		Name: "LIFX Candle Colour Intl",
+		Name: `LIFX Candle C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1822,9 +2247,43 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	139: {
+		PID:  139,
+		Name: `LIFX A19 US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
+	140: {
+		PID:  140,
+		Name: `LIFX A19 Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
 	141: {
 		PID:  141,
-		Name: "LIFX Neon US",
+		Name: `LIFX Neon`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1841,7 +2300,7 @@ var ProductsByPID = map[int]Product{
 	},
 	142: {
 		PID:  142,
-		Name: "LIFX Neon Intl",
+		Name: `LIFX Neon`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1858,7 +2317,7 @@ var ProductsByPID = map[int]Product{
 	},
 	143: {
 		PID:  143,
-		Name: "LIFX String US",
+		Name: `LIFX String`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1875,7 +2334,7 @@ var ProductsByPID = map[int]Product{
 	},
 	144: {
 		PID:  144,
-		Name: "LIFX String Intl",
+		Name: `LIFX String`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1890,9 +2349,213 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	145: {
+		PID:  145,
+		Name: `LIFX Ceiling US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	146: {
+		PID:  146,
+		Name: `LIFX Ceiling Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	147: {
+		PID:  147,
+		Name: `LIFX Round Spot US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	148: {
+		PID:  148,
+		Name: `LIFX Square Spot US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	149: {
+		PID:  149,
+		Name: `LIFX Round Path US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	150: {
+		PID:  150,
+		Name: `LIFX Square Path US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	151: {
+		PID:  151,
+		Name: `LIFX Neon Outdoor`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         true,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
+	152: {
+		PID:  152,
+		Name: `LIFX Neon Outdoor`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         true,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
+	153: {
+		PID:  153,
+		Name: `LIFX PAR38 US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	154: {
+		PID:  154,
+		Name: `LIFX PAR38 Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	155: {
+		PID:  155,
+		Name: `LIFX Sunshine`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	156: {
+		PID:  156,
+		Name: `LIFX A21 1000lm Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	161: {
 		PID:  161,
-		Name: "LIFX Outdoor Neon US",
+		Name: `LIFX Neon Outdoor`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1909,7 +2572,7 @@ var ProductsByPID = map[int]Product{
 	},
 	162: {
 		PID:  162,
-		Name: "LIFX Outdoor Neon Intl",
+		Name: `LIFX Neon Outdoor`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1926,7 +2589,7 @@ var ProductsByPID = map[int]Product{
 	},
 	163: {
 		PID:  163,
-		Name: "LIFX A19 US",
+		Name: `LIFX A19`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1943,7 +2606,7 @@ var ProductsByPID = map[int]Product{
 	},
 	164: {
 		PID:  164,
-		Name: "LIFX BR30 US",
+		Name: `LIFX BR30`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1960,7 +2623,7 @@ var ProductsByPID = map[int]Product{
 	},
 	165: {
 		PID:  165,
-		Name: "LIFX A19 Intl",
+		Name: `LIFX A19 Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1977,7 +2640,7 @@ var ProductsByPID = map[int]Product{
 	},
 	166: {
 		PID:  166,
-		Name: "LIFX BR30 Intl",
+		Name: `LIFX BR30 Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -1994,7 +2657,7 @@ var ProductsByPID = map[int]Product{
 	},
 	167: {
 		PID:  167,
-		Name: "LIFX Downlight",
+		Name: `LIFX DL AU`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2011,7 +2674,7 @@ var ProductsByPID = map[int]Product{
 	},
 	168: {
 		PID:  168,
-		Name: "LIFX Downlight",
+		Name: `LIFX DL US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2028,7 +2691,7 @@ var ProductsByPID = map[int]Product{
 	},
 	169: {
 		PID:  169,
-		Name: "LIFX A21 1600lm US",
+		Name: `LIFX A21`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2045,7 +2708,7 @@ var ProductsByPID = map[int]Product{
 	},
 	170: {
 		PID:  170,
-		Name: "LIFX A21 1600lm Intl",
+		Name: `LIFX A21`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2062,7 +2725,24 @@ var ProductsByPID = map[int]Product{
 	},
 	171: {
 		PID:  171,
-		Name: "LIFX Round Spot US",
+		Name: `LIFX Spot`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	172: {
+		PID:  172,
+		Name: `LIFX Spot`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2079,7 +2759,7 @@ var ProductsByPID = map[int]Product{
 	},
 	173: {
 		PID:  173,
-		Name: "LIFX Round Path US",
+		Name: `LIFX Path`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2096,7 +2776,7 @@ var ProductsByPID = map[int]Product{
 	},
 	174: {
 		PID:  174,
-		Name: "LIFX Square Path US",
+		Name: `LIFX Path`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2113,7 +2793,7 @@ var ProductsByPID = map[int]Product{
 	},
 	175: {
 		PID:  175,
-		Name: "LIFX PAR38 US",
+		Name: `LIFX PAR38`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2130,7 +2810,7 @@ var ProductsByPID = map[int]Product{
 	},
 	176: {
 		PID:  176,
-		Name: "LIFX Ceiling US",
+		Name: `LIFX Ceiling`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2147,7 +2827,7 @@ var ProductsByPID = map[int]Product{
 	},
 	177: {
 		PID:  177,
-		Name: "LIFX Ceiling Intl",
+		Name: `LIFX Ceiling`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2164,7 +2844,7 @@ var ProductsByPID = map[int]Product{
 	},
 	178: {
 		PID:  178,
-		Name: "LIFX Downlight US",
+		Name: `LIFX Downlight US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2181,7 +2861,7 @@ var ProductsByPID = map[int]Product{
 	},
 	179: {
 		PID:  179,
-		Name: "LIFX Downlight US",
+		Name: `LIFX Downlight US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2198,7 +2878,7 @@ var ProductsByPID = map[int]Product{
 	},
 	180: {
 		PID:  180,
-		Name: "LIFX Downlight US",
+		Name: `LIFX Downlight US`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2215,7 +2895,7 @@ var ProductsByPID = map[int]Product{
 	},
 	181: {
 		PID:  181,
-		Name: "LIFX Color US",
+		Name: `LIFX Mini`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2232,7 +2912,7 @@ var ProductsByPID = map[int]Product{
 	},
 	182: {
 		PID:  182,
-		Name: "LIFX Colour Intl",
+		Name: `LIFX Mini`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2249,7 +2929,7 @@ var ProductsByPID = map[int]Product{
 	},
 	185: {
 		PID:  185,
-		Name: "LIFX Candle Color US",
+		Name: `LIFX Candle C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2266,7 +2946,7 @@ var ProductsByPID = map[int]Product{
 	},
 	186: {
 		PID:  186,
-		Name: "LIFX Candle Colour Intl",
+		Name: `LIFX Candle C Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2283,7 +2963,7 @@ var ProductsByPID = map[int]Product{
 	},
 	187: {
 		PID:  187,
-		Name: "LIFX Candle Color US",
+		Name: `LIFX Candle`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2300,7 +2980,7 @@ var ProductsByPID = map[int]Product{
 	},
 	188: {
 		PID:  188,
-		Name: "LIFX Candle Colour Intl",
+		Name: `LIFX Candle Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2315,9 +2995,43 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	191: {
+		PID:  191,
+		Name: `LIFX Everyday A19`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2700, 6500},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	192: {
+		PID:  192,
+		Name: `LIFX Everyday A19 Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{2700, 6500},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
 	201: {
 		PID:  201,
-		Name: "LIFX Ceiling 13x26&#34; US",
+		Name: `LIFX Ceiling 13x26`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2334,7 +3048,7 @@ var ProductsByPID = map[int]Product{
 	},
 	202: {
 		PID:  202,
-		Name: "LIFX Ceiling 13x26&#34; Intl",
+		Name: `LIFX Ceiling 13x26 Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2351,7 +3065,7 @@ var ProductsByPID = map[int]Product{
 	},
 	203: {
 		PID:  203,
-		Name: "LIFX String US",
+		Name: `LIFX String`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2368,7 +3082,7 @@ var ProductsByPID = map[int]Product{
 	},
 	204: {
 		PID:  204,
-		Name: "LIFX String Intl",
+		Name: `LIFX String`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2385,7 +3099,7 @@ var ProductsByPID = map[int]Product{
 	},
 	205: {
 		PID:  205,
-		Name: "LIFX Indoor Neon US",
+		Name: `LIFX Neon`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2402,7 +3116,7 @@ var ProductsByPID = map[int]Product{
 	},
 	206: {
 		PID:  206,
-		Name: "LIFX Indoor Neon Intl",
+		Name: `LIFX Neon`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2417,9 +3131,60 @@ var ProductsByPID = map[int]Product{
 		},
 		Upgrades: []Upgrade{},
 	},
+	207: {
+		PID:  207,
+		Name: `LIFX Everyday Lightstrip`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           true,
+			Infrared:          false,
+			Multizone:         true,
+			TemperatureRange:  []int{2700, 6500},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
+	208: {
+		PID:  208,
+		Name: `LIFX Everyday Lightstrip Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           true,
+			Infrared:          false,
+			Multizone:         true,
+			TemperatureRange:  []int{2700, 6500},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
+	211: {
+		PID:  211,
+		Name: `LIFX Everyday Permanent Outdoor US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         true,
+			TemperatureRange:  []int{2700, 6500},
+			ExtendedMultizone: true,
+		},
+		Upgrades: []Upgrade{},
+	},
 	213: {
 		PID:  213,
-		Name: "LIFX Permanent Outdoor US",
+		Name: `LIFX Permanent Outdoor`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2436,7 +3201,7 @@ var ProductsByPID = map[int]Product{
 	},
 	214: {
 		PID:  214,
-		Name: "LIFX Permanent Outdoor Intl",
+		Name: `LIFX Permanent Outdoor Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2453,7 +3218,7 @@ var ProductsByPID = map[int]Product{
 	},
 	215: {
 		PID:  215,
-		Name: "LIFX Candle Color US",
+		Name: `LIFX Candle C`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2470,7 +3235,7 @@ var ProductsByPID = map[int]Product{
 	},
 	216: {
 		PID:  216,
-		Name: "LIFX Candle Colour Intl",
+		Name: `LIFX Candle C Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2487,7 +3252,7 @@ var ProductsByPID = map[int]Product{
 	},
 	217: {
 		PID:  217,
-		Name: "LIFX Tube US",
+		Name: `LIFX Tube`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2504,7 +3269,7 @@ var ProductsByPID = map[int]Product{
 	},
 	218: {
 		PID:  218,
-		Name: "LIFX Tube Intl",
+		Name: `LIFX Tube Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2521,7 +3286,7 @@ var ProductsByPID = map[int]Product{
 	},
 	219: {
 		PID:  219,
-		Name: "LIFX Luna US",
+		Name: `LIFX Luna`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2538,7 +3303,7 @@ var ProductsByPID = map[int]Product{
 	},
 	220: {
 		PID:  220,
-		Name: "LIFX Luna Intl",
+		Name: `LIFX Luna Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2555,7 +3320,7 @@ var ProductsByPID = map[int]Product{
 	},
 	221: {
 		PID:  221,
-		Name: "LIFX Round Spot Intl",
+		Name: `LIFX Spot Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2572,7 +3337,7 @@ var ProductsByPID = map[int]Product{
 	},
 	222: {
 		PID:  222,
-		Name: "LIFX Round Path Intl",
+		Name: `LIFX Path Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2589,7 +3354,7 @@ var ProductsByPID = map[int]Product{
 	},
 	223: {
 		PID:  223,
-		Name: "LIFX Downlight US",
+		Name: `LIFX DL`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2606,7 +3371,7 @@ var ProductsByPID = map[int]Product{
 	},
 	224: {
 		PID:  224,
-		Name: "LIFX Downlight Intl",
+		Name: `LIFX DL Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2623,7 +3388,7 @@ var ProductsByPID = map[int]Product{
 	},
 	225: {
 		PID:  225,
-		Name: "LIFX PAR38 INTL",
+		Name: `LIFX PAR38 Intl`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
@@ -2634,6 +3399,125 @@ var ProductsByPID = map[int]Product{
 			Infrared:          false,
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	226: {
+		PID:  226,
+		Name: `LIFX Dimmer Switch`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             false,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            true,
+			Buttons:           true,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int(nil),
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	229: {
+		PID:  229,
+		Name: `LIFX Path Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	265: {
+		PID:  265,
+		Name: `LIFX Ceiling 13"`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	266: {
+		PID:  266,
+		Name: `LIFX Ceiling 13" Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	267: {
+		PID:  267,
+		Name: `LIFX Mirror`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           true,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	268: {
+		PID:  268,
+		Name: `LIFX Mirror Intl`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            true,
+			Relays:            false,
+			Buttons:           true,
+			Infrared:          false,
+			Multizone:         false,
+			TemperatureRange:  []int{1500, 9000},
+			ExtendedMultizone: false,
+		},
+		Upgrades: []Upgrade{},
+	},
+	300: {
+		PID:  300,
+		Name: `LIFX Everyday Permanent Outdoor US`,
+		Features: FeatureSet{
+			HEV:               false,
+			Color:             true,
+			Chain:             false,
+			Matrix:            false,
+			Relays:            false,
+			Buttons:           false,
+			Infrared:          false,
+			Multizone:         true,
+			TemperatureRange:  []int{2700, 6500},
 			ExtendedMultizone: false,
 		},
 		Upgrades: []Upgrade{},

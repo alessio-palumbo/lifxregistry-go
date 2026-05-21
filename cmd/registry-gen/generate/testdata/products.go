@@ -7,7 +7,7 @@ package registry
 var ProductsByPID = map[int]Product{
 	1: {
 		PID:  1,
-		Name: "LIFX Original 1000",
+		Name: `LIFX Original 1000`,
 		Features: FeatureSet{
 			HEV:               false,
 			Color:             true,
