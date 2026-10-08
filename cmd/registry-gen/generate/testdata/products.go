@@ -61,6 +61,14 @@ type FeatureSet struct {
 	Multizone         bool  `json:"multizone"`
 	TemperatureRange  []int `json:"temperature_range"`
 	ExtendedMultizone bool  `json:"extended_multizone"`
+	// UplightCoords is nil when the registry does not specify an uplight.
+	UplightCoords *UplightCoordinates `json:"uplight_coords,omitempty"`
+}
+
+// UplightCoordinates identifies the uplight's matrix location in registry data.
+type UplightCoordinates struct {
+	X int `json:"x"`
+	Y int `json:"y"`
 }
 
 // Upgrade describes the features added to an existing LIFX Product

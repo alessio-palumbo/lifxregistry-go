@@ -1,6 +1,6 @@
 // Code generated. DO NOT EDIT.
 // Source: https://github.com/LIFX/products@58b8dfa85c86368a029e4ab034dcb5cc842f7026
-// Generated: 2026-10-08T00:27:11Z
+// Generated: 2026-10-08T01:07:30Z
 package registry
 
 // ProductsByPID maps LIFX Product IDs to products.
@@ -2924,6 +2924,7 @@ var ProductsByPID = map[int]Product{
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
 			ExtendedMultizone: false,
+			UplightCoords:     &UplightCoordinates{X: 7, Y: 7},
 		},
 		Upgrades: []Upgrade{
 			{
@@ -2958,6 +2959,7 @@ var ProductsByPID = map[int]Product{
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
 			ExtendedMultizone: false,
+			UplightCoords:     &UplightCoordinates{X: 7, Y: 7},
 		},
 		Upgrades: []Upgrade{
 			{
@@ -3332,6 +3334,7 @@ var ProductsByPID = map[int]Product{
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
 			ExtendedMultizone: false,
+			UplightCoords:     &UplightCoordinates{X: 15, Y: 7},
 		},
 		Upgrades: []Upgrade{
 			{
@@ -3366,6 +3369,7 @@ var ProductsByPID = map[int]Product{
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
 			ExtendedMultizone: false,
+			UplightCoords:     &UplightCoordinates{X: 15, Y: 7},
 		},
 		Upgrades: []Upgrade{
 			{
@@ -4063,6 +4067,7 @@ var ProductsByPID = map[int]Product{
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
 			ExtendedMultizone: false,
+			UplightCoords:     &UplightCoordinates{X: 7, Y: 7},
 		},
 		Upgrades: []Upgrade{
 			{
@@ -4097,6 +4102,7 @@ var ProductsByPID = map[int]Product{
 			Multizone:         false,
 			TemperatureRange:  []int{1500, 9000},
 			ExtendedMultizone: false,
+			UplightCoords:     &UplightCoordinates{X: 7, Y: 7},
 		},
 		Upgrades: []Upgrade{
 			{
@@ -4224,6 +4230,14 @@ type FeatureSet struct {
 	Multizone         bool  `json:"multizone"`
 	TemperatureRange  []int `json:"temperature_range"`
 	ExtendedMultizone bool  `json:"extended_multizone"`
+	// UplightCoords is nil when the registry does not specify an uplight.
+	UplightCoords *UplightCoordinates `json:"uplight_coords,omitempty"`
+}
+
+// UplightCoordinates identifies the uplight's matrix location in registry data.
+type UplightCoordinates struct {
+	X int `json:"x"`
+	Y int `json:"y"`
 }
 
 // Upgrade describes the features added to an existing LIFX Product

@@ -6,16 +6,24 @@ import (
 )
 
 type FeatureSet struct {
-	HEV               bool  `json:"hev"`
-	Color             bool  `json:"color"`
-	Chain             bool  `json:"chain"`
-	Matrix            bool  `json:"matrix"`
-	Relays            bool  `json:"relays"`
-	Buttons           bool  `json:"buttons"`
-	Infrared          bool  `json:"infrared"`
-	Multizone         bool  `json:"multizone"`
-	TemperatureRange  []int `json:"temperature_range"`
-	ExtendedMultizone bool  `json:"extended_multizone"`
+	HEV               bool                `json:"hev"`
+	Color             bool                `json:"color"`
+	Chain             bool                `json:"chain"`
+	Matrix            bool                `json:"matrix"`
+	Relays            bool                `json:"relays"`
+	Buttons           bool                `json:"buttons"`
+	Infrared          bool                `json:"infrared"`
+	Multizone         bool                `json:"multizone"`
+	TemperatureRange  []int               `json:"temperature_range"`
+	ExtendedMultizone bool                `json:"extended_multizone"`
+	UplightCoords     *UplightCoordinates `json:"uplight_coords,omitempty"`
+}
+
+// UplightCoordinates identifies the uplight's matrix location in registry data.
+// FeatureSet uses a pointer so absent/null differs from a valid (0,0).
+type UplightCoordinates struct {
+	X int `json:"x"`
+	Y int `json:"y"`
 }
 
 type Product struct {

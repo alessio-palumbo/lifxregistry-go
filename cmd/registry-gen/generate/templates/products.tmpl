@@ -18,6 +18,9 @@ var ProductsByPID = map[int]Product{
 			Multizone: {{ .Features.Multizone }},
 			TemperatureRange: {{ printf "%#v" .Features.TemperatureRange}},
 			ExtendedMultizone: {{ .Features.ExtendedMultizone }},
+			{{- if .Features.UplightCoords }}
+			UplightCoords: &UplightCoordinates{X: {{ .Features.UplightCoords.X }}, Y: {{ .Features.UplightCoords.Y }}},
+			{{- end }}
 		},
 		Upgrades: []Upgrade{
 		{{- range .Upgrades }}
@@ -35,6 +38,9 @@ var ProductsByPID = map[int]Product{
 					Multizone: {{ .Features.Multizone }},
 					TemperatureRange: {{ printf "%#v" .Features.TemperatureRange }},
 					ExtendedMultizone: {{ .Features.ExtendedMultizone }},
+					{{- if .Features.UplightCoords }}
+					UplightCoords: &UplightCoordinates{X: {{ .Features.UplightCoords.X }}, Y: {{ .Features.UplightCoords.Y }}},
+					{{- end }}
 				},
 			},
 		{{- end }}
@@ -63,6 +69,14 @@ type FeatureSet struct {
 	Multizone         bool  `json:"multizone"`
 	TemperatureRange  []int `json:"temperature_range"`
 	ExtendedMultizone bool  `json:"extended_multizone"`
+	// UplightCoords is nil when the registry does not specify an uplight.
+	UplightCoords *UplightCoordinates `json:"uplight_coords,omitempty"`
+}
+
+// UplightCoordinates identifies the uplight's matrix location in registry data.
+type UplightCoordinates struct {
+	X int `json:"x"`
+	Y int `json:"y"`
 }
 
 // Upgrade describes the features added to an existing LIFX Product

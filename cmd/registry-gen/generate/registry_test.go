@@ -4,7 +4,9 @@ import (
 	"embed"
 	"io/fs"
 	"os"
+	"os/exec"
 	"path/filepath"
+	"strings"
 	"testing"
 	"time"
 
@@ -54,6 +56,7 @@ func TestGenerateProductsRegistry(t *testing.T) {
 
 	sourceCommit := "0000000000000000000000000000000000000000"
 	now = func() time.Time { return testNow }
+	t.Cleanup(func() { now = time.Now })
 	if err := GenerateProductsRegistry(products, tmpDir, sourceCommit); err != nil {
 		t.Fatalf("TestGenerateProductsRegistry failed: %v", err)
 	}
@@ -65,5 +68,37 @@ func TestGenerateProductsRegistry(t *testing.T) {
 
 	if string(got) != string(want) {
 		t.Errorf("generated output does not match golden file\n--- got ---\n%s\n--- want ---\n%s", got, want)
+	}
+}
+
+func TestGenerateUplightCoordinates(t *testing.T) {
+	products := []decode.Product{
+		{PID: 176, Name: "LIFX Ceiling", Features: decode.FeatureSet{Matrix: true, UplightCoords: &decode.UplightCoordinates{X: 7, Y: 7}}},
+		{PID: 201, Name: "LIFX Ceiling 13x26", Features: decode.FeatureSet{Matrix: true, UplightCoords: &decode.UplightCoordinates{X: 15, Y: 7}}},
+		{PID: 999, Name: "Origin fixture", Features: decode.FeatureSet{UplightCoords: &decode.UplightCoordinates{}},
+			Upgrades: []decode.Upgrade{{Major: 4, Minor: 110, Features: decode.FeatureSet{UplightCoords: &decode.UplightCoordinates{X: 1, Y: 2}}}}},
+		{PID: 1, Name: "No uplight"},
+	}
+	dir := t.TempDir()
+	if err := GenerateProductsRegistry(products, dir, "fixture"); err != nil {
+		t.Fatal(err)
+	}
+	path := filepath.Join(dir, "products.go")
+	data, err := os.ReadFile(path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, text := range []string{"&UplightCoordinates{X: 7, Y: 7}", "&UplightCoordinates{X: 15, Y: 7}", "&UplightCoordinates{X: 0, Y: 0}", "&UplightCoordinates{X: 1, Y: 2}", `json:"uplight_coords,omitempty"`} {
+		if !strings.Contains(string(data), text) {
+			t.Fatalf("missing generated value: %s", text)
+		}
+	}
+	if strings.Count(string(data), "UplightCoords:") != 4 {
+		t.Fatal("generated literals must omit absent uplight coordinates")
+	}
+	// Compile generated output as a standalone package. The generator's decode
+	// types must not leak into the public registry code.
+	if output, err := exec.Command("go", "test", path).CombinedOutput(); err != nil {
+		t.Fatalf("generated registry does not compile: %v\n%s", err, output)
 	}
 }

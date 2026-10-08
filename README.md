@@ -24,6 +24,17 @@ This will:
 - If changed, copy the new products.json and commit hash.
 - Regenerate Go code under gen/.
 
+To regenerate from the already checked-in registry (for example after changing
+the generator), run `go run ./cmd/registry-gen` directly. `make regenerate`
+currently skips generation if the upstream registry commit has not changed.
+
+Generated `FeatureSet.UplightCoords` is an optional `*UplightCoordinates` with
+`X` and `Y` integer fields and the JSON key `uplight_coords`. Missing or null
+metadata is nil and omitted from JSON and generated literals; a valid `(0,0)`
+remains non-nil. Coordinates are carried through
+both base product features and firmware upgrades without interpreting their
+device-specific physical mapping.
+
 ### Requirements
 
 - Go 1.24+
